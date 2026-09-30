@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Outer ring with marks -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M12,2A10,10 0 1,0 22,12A10,10 0 0,0 12,2ZM12,20A8,8 0 1,1 20,12A8,8 0 0,1 12,20Z" />
+    <!-- Center target -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M12,8A4,4 0 1,0 16,12A4,4 0 0,0 12,8ZM12,14A2,2 0 1,1 14,12A2,2 0 0,1 12,14Z" />
+    <!-- Top mark -->
+    <path android:fillColor="#D32F2F" android:pathData="M11,0h2v4h-2z" />
+    <!-- Bottom mark -->
+    <path android:fillColor="#D32F2F" android:pathData="M11,20h2v4h-2z" />
+    <!-- Left mark -->
+    <path android:fillColor="#D32F2F" android:pathData="M0,11h4v2h-4z" />
+    <!-- Right mark -->
+    <path android:fillColor="#D32F2F" android:pathData="M20,11h4v2h-4z" />
+</vector>

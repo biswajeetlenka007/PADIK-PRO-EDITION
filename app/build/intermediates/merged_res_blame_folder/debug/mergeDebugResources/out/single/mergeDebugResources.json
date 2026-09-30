@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_fragment_sensors.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/fragment_sensors.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_item_guide.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/item_guide.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/xml_network_security_config.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_history.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_step_counter.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_step_counter.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_user.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_user.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_launcher_padik.png.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_launcher_padik.png"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_axis.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_axis.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_bg_sensor_value.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/bg_sensor_value.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_dialog_user_details.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/dialog_user_details.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_circle_background.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_guide.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_sensor.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_sensor.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_step_calibration.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_step_calibration.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_data_collection.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_data_collection.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_arrow_back.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_gps.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_gps.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_arrow_up.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_directions_walk.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_directions_walk.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_debug_tools.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_debug_tools.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_data_collect.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_data_collect.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_calibration.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_calibration.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_step_counter.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_step_counter.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_help.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_help.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_dialog_marker.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/dialog_marker.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_main.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_main.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_play.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_graph.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_graph.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_map.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_blue_dot.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_blue_dot.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_step_calibration.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_step_calibration.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_fragment_steps.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/fragment_steps.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_gyro.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_gyro.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_dialog_search_path.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/dialog_search_path.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_settings.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_debug_tools.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_debug_tools.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_dialog_auto_frame_calib.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/dialog_auto_frame_calib.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_main_container.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_main_container.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_turn_left.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_turn_left.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_splash.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_turn_around.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_turn_around.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_bg_live_badge.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/bg_live_badge.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/color_bottom_nav_color.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_user_list.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_user_list.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_directions.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_directions.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_location_disabled.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_location_disabled.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_delete.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_more_vert.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_arrow_right.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_compass.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_compass.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_pause.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_hamburger.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_hamburger.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_arrow_left.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_arrow_left.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_main_navigation.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_main_navigation.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_graph.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_graph.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_user_list.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_user_list.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_item_trip.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/item_trip.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_settings.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_bottom_navigation.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/bottom_navigation.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_heading.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_heading.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_add_location.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_add_location.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_my_location.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_my_location.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_user.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_user.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_play_arrow_black_24dp.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_play_arrow_black_24dp.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_history.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_history.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_pause_black_24dp.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_pause_black_24dp.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_fragment_map.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/menu_menu_heading.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/menu/menu_heading.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_ic_stop.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/layout_activity_fragment_wrapper.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/layout/activity_fragment_wrapper.xml"
+    },
+    {
+        "merged": "padik.deadreckoning.app-debug-34:/drawable_splash_background.xml.flat",
+        "source": "padik.deadreckoning.app-main-36:/drawable/splash_background.xml"
+    }
+]

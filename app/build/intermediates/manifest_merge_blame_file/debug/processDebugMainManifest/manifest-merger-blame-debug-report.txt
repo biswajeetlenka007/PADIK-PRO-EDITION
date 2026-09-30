@@ -1,0 +1,453 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="padik.deadreckoning"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission
+11-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:5:5-6:38
+12        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+12-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:5:22-78
+13        android:maxSdkVersion="32" />
+13-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:6:9-35
+14    <uses-permission
+14-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:7:5-8:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:7:22-77
+16        android:maxSdkVersion="32" />
+16-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:8:9-35
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:9:5-79
+17-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:10:5-81
+18-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:10:22-78
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:11:5-85
+19-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:11:22-82
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:12:5-77
+20-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:12:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+21-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:13:5-86
+21-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:13:22-83
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:14:5-68
+22-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:14:22-65
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:15:5-67
+23-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:15:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:16:5-79
+24-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:16:22-76
+25    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+25-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:17:5-85
+25-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:17:22-82
+26    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+26-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:18:5-79
+26-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:18:22-76
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:19:5-77
+27-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:19:22-74
+28
+29    <supports-screens
+29-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:9:5-12:40
+30        android:anyDensity="true"
+30-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:10:9-34
+31        android:largeScreens="true"
+31-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:11:9-36
+32        android:normalScreens="true" />
+32-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:12:9-37
+33
+34    <uses-feature
+34-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:14:5-16:36
+35        android:name="android.hardware.location.network"
+35-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:15:9-57
+36        android:required="false" />
+36-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:16:9-33
+37    <uses-feature
+37-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:17:5-19:36
+38        android:name="android.hardware.location.gps"
+38-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:18:9-53
+39        android:required="false" />
+39-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:19:9-33
+40    <uses-feature
+40-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:20:5-22:36
+41        android:name="android.hardware.telephony"
+41-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:21:9-50
+42        android:required="false" />
+42-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:22:9-33
+43    <uses-feature
+43-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:23:5-25:36
+44        android:name="android.hardware.wifi"
+44-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:24:9-45
+45        android:required="false" />
+45-->[org.osmdroid:osmdroid-android:6.1.20] /Users/biswajeetlenka/.gradle/caches/transforms-4/0c54cdc974b7b1147a5855d51c0db81c/transformed/jetified-osmdroid-android-6.1.20/AndroidManifest.xml:25:9-33
+46
+47    <permission
+47-->[androidx.core:core:1.13.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/6996275dfd3d7d3c107f2454f7fc66cc/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+48        android:name="padik.deadreckoning.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.13.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/6996275dfd3d7d3c107f2454f7fc66cc/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.13.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/6996275dfd3d7d3c107f2454f7fc66cc/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="padik.deadreckoning.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.13.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/6996275dfd3d7d3c107f2454f7fc66cc/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.13.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/6996275dfd3d7d3c107f2454f7fc66cc/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+52
+53    <application
+53-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:21:5-164:19
+54        android:name="padik.deadreckoning.DeadReckoningApp"
+54-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:29:9-41
+55        android:allowBackup="true"
+55-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:22:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.13.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/6996275dfd3d7d3c107f2454f7fc66cc/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+57        android:debuggable="true"
+58        android:extractNativeLibs="false"
+59        android:icon="@drawable/ic_launcher_padik"
+59-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:23:9-51
+60        android:label="@string/app_name"
+60-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:24:9-41
+61        android:networkSecurityConfig="@xml/network_security_config"
+61-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:28:9-69
+62        android:testOnly="true"
+63        android:theme="@style/AppTheme"
+63-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:25:9-40
+64        android:usesCleartextTraffic="true" >
+64-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:26:9-44
+65        <activity
+65-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:31:9-42:20
+66            android:name="padik.deadreckoning.activity.SplashActivity"
+66-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:32:13-71
+67            android:configChanges="orientation|keyboardHidden|screenSize"
+67-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:33:13-74
+68            android:exported="true"
+68-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:36:13-36
+69            android:label="@string/app_name"
+69-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:34:13-45
+70            android:screenOrientation="portrait"
+70-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:35:13-49
+71            android:theme="@style/SplashTheme" >
+71-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:37:13-47
+72            <intent-filter>
+72-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:38:13-41:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:39:17-69
+73-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:39:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:40:17-77
+75-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:40:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:44:9-50:20
+79            android:name="padik.deadreckoning.activity.MainContainerActivity"
+79-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:45:13-78
+80            android:configChanges="orientation|keyboardHidden|screenSize"
+80-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:46:13-74
+81            android:exported="false"
+81-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:49:13-37
+82            android:label="@string/app_name"
+82-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:47:13-45
+83            android:screenOrientation="portrait" >
+83-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:48:13-49
+84        </activity>
+85        <activity
+85-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:52:9-58:20
+86            android:name="padik.deadreckoning.activity.StepCountActivity"
+86-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:53:13-74
+87            android:configChanges="orientation|keyboardHidden|screenSize"
+87-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:54:13-74
+88            android:exported="false"
+88-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:57:13-37
+89            android:label="@string/title_step_counter"
+89-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:55:13-55
+90            android:screenOrientation="portrait" >
+90-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:56:13-49
+91        </activity>
+92        <activity
+92-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:59:9-65:20
+93            android:name="padik.deadreckoning.activity.StepCalibrationActivity"
+93-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:60:13-61
+94            android:configChanges="orientation|keyboardHidden|screenSize"
+94-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:61:13-74
+95            android:exported="false"
+95-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:64:13-37
+96            android:label="@string/title_activity_calibration"
+96-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:62:13-63
+97            android:screenOrientation="portrait" >
+97-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:63:13-49
+98        </activity>
+99        <activity
+99-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:66:9-72:20
+100            android:name="padik.deadreckoning.activity.GraphActivity"
+100-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:67:13-70
+101            android:configChanges="orientation|keyboardHidden|screenSize"
+101-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:68:13-74
+102            android:exported="false"
+102-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:71:13-37
+103            android:label="@string/title_activity_graph"
+103-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:69:13-57
+104            android:screenOrientation="portrait" >
+104-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:70:13-49
+105        </activity>
+106        <activity
+106-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:73:9-79:20
+107            android:name="padik.deadreckoning.activity.HeadingActivity"
+107-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:74:13-72
+108            android:configChanges="orientation|keyboardHidden|screenSize"
+108-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:75:13-74
+109            android:exported="false"
+109-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:78:13-37
+110            android:label="@string/title_activity_orientation"
+110-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:76:13-63
+111            android:screenOrientation="portrait" >
+111-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:77:13-49
+112        </activity>
+113        <activity
+113-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:80:9-86:20
+114            android:name="padik.deadreckoning.activity.DataCollectActivity"
+114-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:81:13-76
+115            android:configChanges="orientation|keyboardHidden|screenSize"
+115-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:82:13-74
+116            android:exported="false"
+116-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:85:13-37
+117            android:label="@string/title_activity_data_collection"
+117-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:83:13-67
+118            android:screenOrientation="portrait" >
+118-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:84:13-49
+119        </activity>
+120        <activity
+120-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:87:9-93:20
+121            android:name="padik.deadreckoning.activity.UserActivity"
+121-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:88:13-69
+122            android:configChanges="orientation|keyboardHidden|screenSize"
+122-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:89:13-74
+123            android:exported="false"
+123-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:92:13-37
+124            android:label="@string/title_activity_user"
+124-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:90:13-56
+125            android:screenOrientation="portrait" >
+125-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:91:13-49
+126        </activity>
+127        <activity
+127-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:94:9-101:20
+128            android:name="padik.deadreckoning.activity.UserListActivity"
+128-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:95:13-73
+129            android:configChanges="orientation|keyboardHidden|screenSize"
+129-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:96:13-74
+130            android:exported="false"
+130-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:100:13-37
+131            android:label="@string/app_name"
+131-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:97:13-45
+132            android:screenOrientation="portrait"
+132-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:98:13-49
+133            android:theme="@style/AppTheme" >
+133-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:99:13-44
+134        </activity>
+135        <activity
+135-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:102:9-108:20
+136            android:name="padik.deadreckoning.activity.DebugToolsActivity"
+136-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:103:13-75
+137            android:configChanges="orientation|keyboardHidden|screenSize"
+137-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:105:13-74
+138            android:exported="false"
+138-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:107:13-37
+139            android:label="@string/title_activity_debug_tools"
+139-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:104:13-63
+140            android:screenOrientation="portrait" >
+140-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:106:13-49
+141        </activity>
+142        <activity
+142-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:109:9-115:20
+143            android:name="padik.deadreckoning.activity.HistoryActivity"
+143-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:110:13-72
+144            android:configChanges="orientation|keyboardHidden|screenSize"
+144-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:112:13-74
+145            android:exported="false"
+145-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:114:13-37
+146            android:label="@string/nav_history"
+146-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:111:13-48
+147            android:screenOrientation="portrait" >
+147-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:113:13-49
+148        </activity>
+149        <activity
+149-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:116:9-122:20
+150            android:name="padik.deadreckoning.activity.GuideActivity"
+150-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:117:13-70
+151            android:configChanges="orientation|keyboardHidden|screenSize"
+151-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:119:13-74
+152            android:exported="false"
+152-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:121:13-37
+153            android:label="@string/nav_guide"
+153-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:118:13-46
+154            android:screenOrientation="portrait" >
+154-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:120:13-49
+155        </activity>
+156        <activity
+156-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:123:9-129:20
+157            android:name="padik.deadreckoning.activity.CalibrationActivity"
+157-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:124:13-76
+158            android:configChanges="orientation|keyboardHidden|screenSize"
+158-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:126:13-74
+159            android:exported="false"
+159-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:128:13-37
+160            android:label="@string/nav_calibrate"
+160-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:125:13-50
+161            android:screenOrientation="portrait" >
+161-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:127:13-49
+162        </activity>
+163        <activity
+163-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:130:9-136:20
+164            android:name="padik.deadreckoning.activity.SettingsActivity"
+164-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:131:13-73
+165            android:configChanges="orientation|keyboardHidden|screenSize"
+165-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:133:13-74
+166            android:exported="false"
+166-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:135:13-37
+167            android:label="Others"
+167-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:132:13-35
+168            android:screenOrientation="portrait" >
+168-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:134:13-49
+169        </activity>
+170        <activity
+170-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:137:9-143:20
+171            android:name="padik.deadreckoning.activity.SensorsActivity"
+171-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:138:13-72
+172            android:configChanges="orientation|keyboardHidden|screenSize"
+172-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:140:13-74
+173            android:exported="false"
+173-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:142:13-37
+174            android:label="Sensors"
+174-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:139:13-36
+175            android:screenOrientation="portrait" >
+175-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:141:13-49
+176        </activity>
+177        <activity
+177-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:144:9-150:20
+178            android:name="padik.deadreckoning.activity.StepsActivity"
+178-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:145:13-70
+179            android:configChanges="orientation|keyboardHidden|screenSize"
+179-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:147:13-74
+180            android:exported="false"
+180-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:149:13-37
+181            android:label="Steps"
+181-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:146:13-34
+182            android:screenOrientation="portrait" >
+182-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:148:13-49
+183        </activity>
+184        <activity
+184-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:151:9-157:20
+185            android:name="padik.deadreckoning.activity.MainNavigationActivity"
+185-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:152:13-79
+186            android:configChanges="orientation|keyboardHidden|screenSize"
+186-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:154:13-74
+187            android:exported="false"
+187-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:156:13-37
+188            android:label="@string/nav_map"
+188-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:153:13-44
+189            android:screenOrientation="portrait" >
+189-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:155:13-49
+190        </activity>
+191
+192        <service
+192-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:159:9-163:56
+193            android:name="padik.deadreckoning.service.TrackingService"
+193-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:160:13-71
+194            android:enabled="true"
+194-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:161:13-35
+195            android:exported="false"
+195-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:162:13-37
+196            android:foregroundServiceType="location" />
+196-->/Users/biswajeetlenka/Downloads/Dead-Reckoning-Pro_2/app/src/main/AndroidManifest.xml:163:13-53
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/5b012ec772cc8a4eff5c7893863ab408/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:20:9-22:45
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/5b012ec772cc8a4eff5c7893863ab408/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:20:19-85
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/5b012ec772cc8a4eff5c7893863ab408/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:22:19-43
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/5b012ec772cc8a4eff5c7893863ab408/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:21:19-78
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/13736d82c83c726be89c13a381199c7c/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/13736d82c83c726be89c13a381199c7c/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:18.9.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/13736d82c83c726be89c13a381199c7c/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
+206
+207        <provider
+207-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+208            android:name="androidx.startup.InitializationProvider"
+208-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+209            android:authorities="padik.deadreckoning.androidx-startup"
+209-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+210            android:exported="false" >
+210-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+211            <meta-data
+211-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+212                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+212-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+213                android:value="androidx.startup" />
+213-->[androidx.emoji2:emoji2:1.3.0] /Users/biswajeetlenka/.gradle/caches/transforms-4/27277782a347025376d4a8cdfe679d6a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+214            <meta-data
+214-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/biswajeetlenka/.gradle/caches/transforms-4/c0a7ff26feba8a3512f721c4cf2cb0ae/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+215                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+215-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/biswajeetlenka/.gradle/caches/transforms-4/c0a7ff26feba8a3512f721c4cf2cb0ae/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+216                android:value="androidx.startup" />
+216-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/biswajeetlenka/.gradle/caches/transforms-4/c0a7ff26feba8a3512f721c4cf2cb0ae/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+217            <meta-data
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+218                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+219                android:value="androidx.startup" />
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+220        </provider>
+221
+222        <receiver
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+223            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+224            android:directBootAware="false"
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+225            android:enabled="true"
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+226            android:exported="true"
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+227            android:permission="android.permission.DUMP" >
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+228            <intent-filter>
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+229                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+229-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+229-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+230            </intent-filter>
+231            <intent-filter>
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+232                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+233            </intent-filter>
+234            <intent-filter>
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+235                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+236            </intent-filter>
+237            <intent-filter>
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+238                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/biswajeetlenka/.gradle/caches/transforms-4/30183507e825c7aafd015bf4ec0fa8a1/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+239            </intent-filter>
+240        </receiver>
+241    </application>
+242
+243</manifest>

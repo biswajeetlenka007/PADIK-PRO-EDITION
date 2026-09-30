@@ -1,0 +1,28 @@
+{
+  "project": "PS26168 Intelligent Dead Reckoning",
+  "component": "AI Speed Estimator",
+  "model_name": "IDR Speed Estimator",
+  "framework": "TensorFlow / Keras",
+  "deployment_format": "TensorFlow Lite",
+  "precision": "float32",
+  "input_shape": [
+    1,
+    20,
+    15
+  ],
+  "output_shape": [
+    1,
+    1
+  ],
+  "input_dtype": "float32",
+  "output_dtype": "float32",
+  "window_size": 20,
+  "number_of_features": 15,
+  "sampling_rate_hz": 10,
+  "output_unit": "km/h",
+  "tflite_size_bytes": 349100,
+  "tflite_size_mb": 0.3329,
+  "keras_tflite_verification": "PASS",
+  "max_keras_tflite_difference": 4.76837158203125e-06,
+  "status": "Ready for Android on-device integration"
+}

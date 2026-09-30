@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vanilla Red Theme -->
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorPrimaryLight">#EF5350</color>
+    <color name="colorAccent">#FF5252</color> <!-- Vibrant Red Accent -->
+
+    <color name="colorSuccess">#2E7D32</color>
+    <color name="colorError">#C62828</color>
+    <color name="colorWarning">#F9A825</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Neutral Palette -->
+    <color name="textPrimary">#1A1C1E</color>
+    <color name="textSecondary">#44474E</color>
+    <color name="divider">#C4C6D0</color>
+    <color name="background">#FDFBF7</color> <!-- Vanilla -->
+    <color name="surface">#FDFBF7</color> <!-- Vanilla -->
+    <color name="surfaceVariant">#E1E2EC</color>
+    <color name="onSurface">#1A1C1E</color>
+    <color name="onSurfaceVariant">#44474E</color>
+
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="bottom_nav_active">#D32F2F</color>
+    <color name="bottom_nav_inactive">#74777F</color>
+
+    <!-- Dark Navigation Theme Colors -->
+    <color name="navBackground">#121212</color>
+    <color name="navSurface">#1E1E1E</color>
+    <color name="navSurfaceElevated">#2C2C2C</color>
+    <color name="navAccent">#1DE9B6</color>
+    <color name="navTextPrimary">#FFFFFF</color>
+    <color name="navTextSecondary">#B0B0B0</color>
+    <color name="navDivider">#3A3A3A</color>
+    <color name="navWarning">#FFCA28</color>
+    <color name="navError">#F44336</color>
+    <color name="navSuccess">#00E676</color>
+</resources>

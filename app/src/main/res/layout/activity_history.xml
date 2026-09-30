@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:navigationIconTint="@android:color/white"
+            app:title="@string/history_title"
+            app:titleTextColor="@android:color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Statistics Header -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="2dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="24dp"
+                android:paddingHorizontal="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView style="@style/CardLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_trips" />
+                    <TextView android:id="@+id/textTotalTrips" style="@style/CardValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="24sp" />
+                </LinearLayout>
+
+                <View android:layout_width="1dp" android:layout_height="32dp" android:layout_gravity="center_vertical" android:background="@color/divider" android:alpha="0.3" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView style="@style/CardLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_distance" />
+                    <TextView android:id="@+id/textTotalDistance" style="@style/CardValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00 km" android:textSize="24sp" />
+                </LinearLayout>
+
+                <View android:layout_width="1dp" android:layout_height="32dp" android:layout_gravity="center_vertical" android:background="@color/divider" android:alpha="0.3" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView style="@style/CardLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_steps" />
+                    <TextView android:id="@+id/textTotalSteps" style="@style/CardValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/my_trips"
+            style="@style/CardTitle"
+            android:textColor="@color/colorPrimary" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewTrips"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="80dp" />
+
+            <LinearLayout
+                android:id="@+id/emptyState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginBottom="64dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:alpha="0.1"
+                    android:src="@drawable/ic_history"
+                    app:tint="@color/textSecondary" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/no_trip_recorded"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-medium" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/empty_history"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
